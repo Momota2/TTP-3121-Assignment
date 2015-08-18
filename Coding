@@ -24,7 +24,7 @@ int main()
 				if (j == 1)
 				{
 					pch = strpbrk (token, key);
-					printf("The IP address is of this machine is ");
+					printf("The IP address of this machine is ");
 					while (pch != NULL)
 					{
 						printf("%c", *pch);
